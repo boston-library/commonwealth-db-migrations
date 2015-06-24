@@ -1,4 +1,7 @@
 # -*- encoding : utf-8 -*-
+=begin
+# commenting out as this is throwing errors
+# 'attachments' may be reserved word in Rails 4 maybe?
 class CreateBatchUploads < ActiveRecord::Migration
   def self.up
     create_table :batch_uploads do |t|
@@ -12,3 +15,4 @@ class CreateBatchUploads < ActiveRecord::Migration
   end
 
 end
+=end
