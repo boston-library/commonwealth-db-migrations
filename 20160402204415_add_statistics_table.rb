@@ -7,6 +7,6 @@ class AddStatisticsTable < ActiveRecord::Migration
       t.float :total_time
       t.integer :exits
     end
-    add_index :pid, unique: true
+    add_index :admin_statistics, :pid, unique: true
   end
 end
