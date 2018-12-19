@@ -1,4 +1,4 @@
-class ChangePolarisLookupBarcodes < ActiveRecord::Migration
+class ChangePolarisLookupBarcodes < ActiveRecord::Migration[4.2]
   def change
     create_table :polaris_barcodes do |t|
       t.string :barcodeID

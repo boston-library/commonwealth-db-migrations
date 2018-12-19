@@ -1,4 +1,4 @@
-class CreatePolarisLookup < ActiveRecord::Migration
+class CreatePolarisLookup < ActiveRecord::Migration[4.2]
   def change
     create_table :polaris_lookups do |t|
       t.string :itemID

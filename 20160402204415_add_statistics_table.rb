@@ -1,4 +1,4 @@
-class AddStatisticsTable < ActiveRecord::Migration
+class AddStatisticsTable < ActiveRecord::Migration[4.2]
   def change
     create_table :admin_statistics do |t|
       t.string :pid
